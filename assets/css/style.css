@@ -14,6 +14,10 @@
     --cor3: #5d15d1;
 }
 
+html, body {
+    background-color: var(--cor2);
+}
+
 header {
     width: 100%;
     background-color: var(--cor1);
@@ -148,4 +152,30 @@ header img {
     color: var(--cor1);
     background-color: var(--cor3);
     border-radius: 5px;
+}
+
+.secao-ofertas {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-secao-ofertas {
+    width: 100%;
+    margin: 32px auto 0 auto;
+}
+
+.container-secao-ofertas h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container-secao-ofertas h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.container-secao-ofertas h3 > span {
+    font-weight: 600;
 }
